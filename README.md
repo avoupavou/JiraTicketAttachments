@@ -8,12 +8,12 @@ There are two options to execute the script a) use the executable file or b) use
 ## A) Run the executable file 
 You may use directly the executable file for Windows 10. You will need to just update the jira.properties file:
 * Place the executable file and jira.properties under the same directory
-* Update the jira.properties file with the Jira server, credentials, path to store the attachments and the Jira projects
+* Update the jira.properties file with the Jira server, credentials, path to store the attachments and the Jira projects (comma separated)
 * Execute the getJiraAttachments.exe file
 
 ## B) Use the source code
 The script is written in python 3. To execute the script follow the steps below:
-* Update the jira.properties file with the Jira server, credentials, path to store the attachments and the Jira projects
+* Update the jira.properties file with the Jira server, credentials, path to store the attachments and the Jira projects (comma separated)
 * Install python 3
 * Install Jira library: `pip install Jira`
 * Execute getJiraAttachments.py file
