@@ -5,8 +5,9 @@ This script connects to a jira server and retrieves the attachments of all the t
 ticket. E.g. for a project ABC, all the attachments from the ABC tickets will be downloaded under ABC/ABC-X where X is the number of the ticket.
 There are two options to execute the script a) use the executable file or b) use the source code.
 
-## A) Run the executable file 
+## A) Run the executable file
 You may use directly the executable file for Windows 10. You will need to just update the jira.properties file:
+* Download [executable](https://github.com/avoupavou/JiraTicketAttachments/releases/latest)
 * Place the executable file and jira.properties under the same directory
 * Update the jira.properties file with the Jira server, credentials, path to store the attachments and the Jira projects (comma separated)
 * Execute the getJiraAttachments.exe file
